@@ -1,11 +1,6 @@
 import streamlit as st
 import openai
 
-# Set up OpenAI API key
-API_KEY = st.sidebar.text_input('Enter your API key')
-
-openai.api_key = API_KEY
-
 # Define GPT-3 language models
 models = {
     "text-davinci-002": "Davinci (Best model, requires most credits)",
@@ -18,7 +13,12 @@ models = {
 def app():
     st.set_page_config(page_title="AI Blog Writing Tool", page_icon=":pencil2:")
     st.title("AI Blog Writing Tool")
-    
+
+    # Add a sidebar for API key input
+    API_KEY = st.sidebar.text_input('Enter your OpenAI API key')
+
+    # Set up OpenAI API key
+    openai.api_key = API_KEY
 
     # Add input fields for blog title and content
     blog_title = st.text_input("Enter Blog Title:")
