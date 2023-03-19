@@ -13,6 +13,6 @@ The generated blog post is displayed on the screen, and the user can copy and pa
 
 Overall, this tool is a simple way for anyone to generate high-quality written content for their blog or website using the power of Artificial Intelligence.
 
-
+NOTE: You need to have a valid OPENAI API KEY for the program to work
 
 
