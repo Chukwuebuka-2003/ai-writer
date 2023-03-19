@@ -1,5 +1,8 @@
 import streamlit as st
 import openai
+import subprocess
+subprocess.call(['pip', 'install', 'openai'])
+
 
 # Define GPT-3 language models
 models = {
