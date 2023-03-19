@@ -2,7 +2,9 @@ import streamlit as st
 import openai
 
 # Set up OpenAI API key
-openai.api_key = "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"
+API_KEY = st.sidebar.text_input('Enter your API key')
+
+openai.api_key = API_KEY
 
 # Define GPT-3 language models
 models = {
