@@ -6,7 +6,7 @@ subprocess.call(['pip', 'install', 'openai'])
 
 # Define GPT-3 language models
 models = {
-    "gpt-4": "Davinci (Best model, requires most credits)",
+    "gpt-3.5-turbo-instruct": "Davinci (Best model, requires most credits)",
     #"text-curie-001": "Curie",
     #"text-babbage-001": "Babbage",
     #"text-ada-001": "Ada"
