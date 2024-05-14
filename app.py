@@ -6,10 +6,10 @@ subprocess.call(['pip', 'install', 'openai'])
 
 # Define GPT-3 language models
 models = {
-    "text-davinci-002": "Davinci (Best model, requires most credits)",
-    "text-curie-001": "Curie",
-    "text-babbage-001": "Babbage",
-    "text-ada-001": "Ada"
+    "gpt-3.5-turbo-instruct": "Davinci (Best model, requires most credits)",
+    #"text-curie-001": "Curie",
+    #"text-babbage-001": "Babbage",
+    #"text-ada-001": "Ada"
 }
 
 # Define Streamlit app
